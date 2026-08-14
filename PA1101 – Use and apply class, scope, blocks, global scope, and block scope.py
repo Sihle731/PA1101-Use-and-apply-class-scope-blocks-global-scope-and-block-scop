@@ -4,16 +4,17 @@ Create a global variable and print it inside a function.
 
 name = "Sihle"
 
-def greet(hello):
+def greet():
     print(f"Hello my name is {name}")
 
-greet(name)
+greet()
 
 '''
 Exercise 2
 Create a variable inside an if block and try to access it outside.
 Explain the result.
 '''
+
 marks = 79
 if marks > 75:
         string = "Sihle you have passed the module"
@@ -26,6 +27,7 @@ print(string)
 Exercise 3
 Create a loop and test whether the loop variable exists outside.
 '''
+
 for i in range(3):
     print(f"Inside loop: {i}")
 
@@ -41,6 +43,7 @@ Exercise 4
 Create a simple class called Car with a property brand.
 
 Print the brand using a method.'''
+
 class car:
        def vehicle(brand):
              print(f"The brand of the car is: {brand}")
